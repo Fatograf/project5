@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;  
+  }
+  .group {
+	top: 0px;
+	width: 1262px;  
+    height: 140px;
+    color: #E50043;
+	font-size: 40px;
+	font-family: Arial;
+	font-weight: 400;
+   position: fixed; 
+    z-index: 3;  
+background-color: yellow;
+
+  }
+  .group  {
+	justify-content: space-between; 
+	display: flex;
+	flex-direction: row;
+  }
+  .evian {
+	display: flex;
+ margin-top: 50px;	
+ margin-left: 50px;	
+  }
+  	  
+  .link2 {
+      margin-left: 25px;
+	  margin-right: 25px; 
+  }
+  .logo {
+  background-image: url(images/logo.jpg);
+  top: 140px;
+  width: 1262px;
+  height: 950px;
+  position: relative;
+  z-index: -1;
+  }
+  .link {
+	  margin-right: 50px;
+	  margin-top: 50px;
+	 display: flex;  
+     	 
+  }
+  .logo > div {
+	position: relative;
+  z-index: 2;
+  font-size: 100px;
+  color: #E50043;
+  font-family: Arial;
+  font-weight: 400;
+    top: 425px;
+    left: 230px;	
+  }
+ .bottles {
+	 display: flex;
+	 justify-content: space-between;
+	 margin: 0px 50px;
+ }
+.wang, .blue, .chiara {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+ .rectangle {
+	width: 992px;
+	height:232px; 
+	border-color: #F8BFC7;
+	border-style: solid;
+    margin: 185px;
+	padding: 24px;
+	font-size: 25px;
+	 font-family: Arial;
+ }
+.bottles img {
+	margin-bottom: 20px;
+}
+ .rectangle1{
+	width: 749px;
+	height220px;
+	display: flex;
+ }
+ .footer {
+	width: 1262px;  
+    height: 140px;
+	background-color:  #F8BFC7;
+	color: #ffffff;
+	font-size: 50px;
+	font-family: Arial;
+	font-weight: 400;
+	padding: 50px;
+ }
