@@ -1,0 +1,90 @@
+** {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;  
+}
+.group {
+top: 0px;
+width: 100%;  
+  height: 140px;
+  color: #E50043;
+font-size: 40px;
+font-family: Arial;
+font-weight: 400;
+ position: fixed; 
+  z-index: 3;  
+background-color: yellow;
+
+}
+.group  {
+justify-content: space-between; 
+display: flex;
+flex-direction: row;
+}
+.evian {
+display: flex;
+margin-top: 50px;	
+margin-left: 50px;	
+}
+    
+.link2 {
+    margin-left: 25px;
+  margin-right: 25px; 
+}
+.logo {
+background-image: url(images/logo.jpg);
+background-size: cover;
+margin-top: 140px;
+height: 950px;
+z-index: -1;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+.link {
+  margin-right: 50px;
+  margin-top: 50px;
+ display: flex;  
+      
+}
+.logo > div {
+font-size: 100px;
+color: #E50043;
+font-family: Arial;
+font-weight: 400;	
+}
+.bottles {
+ width: 1040px;
+ display: flex;
+ justify-content: space-between;
+ margin: auto;
+}
+.wang, .blue, .chiara {
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+.rectangle {
+width: 1040px; 
+border-color: #F8BFC7;
+border-style: solid;
+  margin: 185px auto;
+padding: 24px;
+font-size: 25px;
+ font-family: Arial;
+}
+.bottles img {
+margin-bottom: 20px;
+}
+.rectangle1{
+display: flex;
+align-items: center;
+}
+.footer {
+background-color:  #F8BFC7;
+color: #ffffff;
+font-size: 50px;
+font-family: Arial;
+font-weight: 400;
+padding: 50px;
+}
